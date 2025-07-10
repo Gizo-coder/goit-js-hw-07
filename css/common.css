@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  list-style: none;
+  margin: 0 auto;
+  min-width: 392px;
+}
+
+.item {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+  width: 392px;
+}
+
+.item h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #2e2f42;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 360px;
+}
+
+.item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  height: 40px;
+  line-height: 40px;
+  width: 360px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 24px;
+  flex-direction: row;
+  
+}
+
+.gallery-list {
+  flex-basis: calc((100% - 32px) / 3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  
+  
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  
+  
+}
+
+.task-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 408px;
+  max-width: 408px;
+  padding: 24px;
+  gap: 16px;
+  margin: 0 auto;
+}
+
+#name-input {
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 408px;
+  max-width: 408px;
+  padding: 24px;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form button {
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.login-form button:focus,
+.login-form button:hover {
+  background: #6c8cff;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 345px;
+  height: 280px;
+  max-width: 345px;
+  padding: 100px 88px;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.change-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  margin: 0 auto;
+}
+
+#controls {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+#controls input {
+  width: 150px;
+  height: auto;
+}
+
+#boxes {
+  display: flex;
+  gap: 44px;
+  margin-top: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+}
