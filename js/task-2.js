@@ -30,7 +30,7 @@ const img = document.querySelector(".gallery");
 
 // resimler düzenlenerek eklendi
 
-const markup = images.map(({ url, alt }) => `<li class="gallery-list"><img class="gallery-image" src="${url}" alt="${alt}></li>`).join("");
+const markup = images.map(({ url, alt }) => `<li class="gallery-list"><img class="gallery-image" src="${url}" alt="${alt}"></li>`).join("");
 
 img.insertAdjacentHTML("beforeend", markup);
 
